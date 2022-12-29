@@ -1,0 +1,46 @@
+﻿body {
+    background-image: url("../imgs/base/fundo_login.png");
+    background-repeat: repeat-x;
+}
+
+.btnLogin {
+    background-color: #ff6a00;
+    border: solid 1px;
+    border-bottom-color: #ff6a00;
+    color: #ffffff;
+    font-family: Arial, Verdana;
+    font-size: medium;
+}
+
+
+
+#logo {
+    background-image: url("../imgs/base/logo_empresa.png");
+    background-repeat: no-repeat;
+    height: 128px;
+    margin-left: 186px;
+    margin-top: 40px;
+    position: absolute;
+    width: 128px;
+}
+
+#txt_logo {
+    background-image: url('../imgs/base/txt_logo.png');
+    background-repeat: no-repeat;
+    height: 73px;
+    margin-left: 158.5px;
+    margin-top: 180px;
+    position: absolute;
+    width: 183px;
+}
+
+#login {
+    color: #000000;
+    font-family: Arial, Verdana;
+    font-size: small;
+    height: 54px;
+    margin-left: 84px;
+    margin-top: 300px;
+    position: absolute;
+    width: 332px;
+}

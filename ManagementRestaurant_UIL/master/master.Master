@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="ManagementRestaurant_UIL.master.master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../css/principal.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <a href="../home/home.aspx">
+        <div id="Logo">
+
+
+        </div>
+        </a>
+        <a href="../administrativo/menu_administrativo.aspx">
+            <div id="menuAdmin">
+
+            </div>
+        </a>
+        <a href="../cliente/menu_cliente.aspx">
+            <div id="menuCad">
+
+            </div>
+        </a>
+        <a href="#">
+            <div id="menuFinan">
+
+            </div>
+        </a>
+        <a href="#">
+            <div id="menuVend">
+
+            </div>
+        </a>
+        <a href="../frota/menu_frota.aspx">
+            <div id="menuopera">
+
+            </div>
+        </a>
+
+        
+        <a href="#">
+            <div id="menuRel">
+
+            </div>
+        </a>
+
+        <div id="conteudo">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

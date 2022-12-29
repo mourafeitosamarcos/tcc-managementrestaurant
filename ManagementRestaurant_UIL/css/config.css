@@ -1,0 +1,519 @@
+﻿body {
+    background-image: url('../imgs/estrutura/new_fundo.png');
+    background-repeat: repeat-x;
+}
+
+
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;    
+}
+
+a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*#tudoLogin {
+    background-image:url('../imgs/estrutura/img_login.png');
+    background-repeat:no-repeat;
+    height: 357px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: left;
+    width: 586px;
+    height: 586px;
+}*/
+
+/*#login {
+    color: #000000;
+    font-family: calibri;
+    font-size: small;
+    height: 54px;
+    margin-left: 64px;
+    margin-top: 340px;
+    position: absolute;
+    width: 332px;
+}*/
+
+#logo {
+    background-image: url('../imgs/estrutura/novo_logo.png');
+    background-repeat: no-repeat;
+    height: 135px;
+    left: 10px;
+    margin-left: 30px;
+    margin-top: 05px;
+    position: absolute;
+    position: absolute;
+    top: 15px;
+    width: 140px;
+}
+
+.Adicionar {
+    background-image: url('../imgs/base/habilitar.gif');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color:#ebebeb;
+    border: 1px solid #ebebeb;
+    height: 25px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.Voltar {
+    background-image: url('../imgs/base/voltar.gif');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color:#ebebeb;
+    border: 1px solid #ebebeb;
+    height: 25px;
+    margin-left: 800px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.Buscar {
+    background-image: url('../imgs/base/buscar.gif');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color:#ebebeb;
+    border: 1px solid #ebebeb;
+    height: 25px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.Calcular {
+    background-image: url('../imgs/base/calcular.gif');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color:#ebebeb;
+    border: 1px solid #ebebeb;
+    height: 25px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.Imprimir {
+    background-image: url('../imgs/base/imprimir.gif');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color:#ebebeb;
+    border: 1px solid #ebebeb;
+    height: 25px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.Aplicar {
+    background-image: url('../imgs/base/aplicar.gif');
+    background-position: left;
+    background-repeat: no-repeat;
+    border: 1px solid #ebebeb;
+    height: 25px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.Limpar {
+    background-image: url('../imgs/base/limpar.gif');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color:#ebebeb;
+    border: 1px solid #ebebeb;
+    height: 25px;
+    margin-left: 0px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.Ativo {
+    background-image: url('../imgs/base/ativo.gif');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color:#ebebeb;
+    border: 1px solid #ebebeb;
+    height: 25px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.VoltarEati {
+    background-image: url('../imgs/base/voltar.gif');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color:#ebebeb;
+    border: 1px solid #ebebeb;
+    height: 25px;
+    margin-left: 690px;
+    text-align: right;
+    cursor: pointer;
+}
+
+/*.BotoesLogin {
+    background-color: #383838;
+    border: solid #383838;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    box-shadow: 2px 0px 9px 3px  lightgray;
+    
+}*/
+
+#conteudo {
+    font-family: calibri;
+    font-size: 12px;
+    height: 450px;
+    margin-left: 220px;
+    margin-top: 10px;
+    position: absolute;
+    width: auto;
+}
+
+#conteudoSimples {
+
+    font-family: calibri;
+    font-size: 12px;
+    height: 450px;
+    margin-left: 220px;
+    margin-top: 50px;
+    position: absolute;
+    width: auto;
+}
+
+#conteudoEati {
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: calibri;
+    font-size: 12px;
+    height: 500px;
+    margin-top: 50px;
+    width: 500px;
+}
+
+#saldacao {
+    color: #ffffff;
+    font: 12px calibri;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 116px;
+    position: absolute;
+    width: 393px;
+}
+
+#feedback {
+    color: #ffffff;
+    font: 14px calibri;
+    height: auto;
+    margin-left: 1000px;
+    margin-top: 90px;
+    position: absolute;
+    width: 55px;
+}
+
+#sair {
+    color: #ffffff;
+    font: 12px calibri;
+    height: auto;
+    margin-left: 934px;
+    margin-top: 116px;
+    position: absolute;
+    width: 80px;
+}
+
+#topo {
+  
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    background: #282828;
+    background: #282828;
+    background: -moz-linear-gradient(top, #282828 0%, #000000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #282828), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(top, #282828 0%, #000000 100%);
+    background: -o-linear-gradient(top, #282828 0%, #000000 100%);
+    background: -ms-linear-gradient(top, #282828 0%, #000000 100%);
+    border-bottom: 3px solid #ff6a00;
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#282828', EndColorStr='#000000', GradientType=0);
+    height: 139px;  
+    width:initial;
+}
+
+/*CSS MENU*/
+
+#menu {
+    background-color: #000000;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-bottom: 1px; /*bottom spacing between menu items*/
+    position: absolute;
+    width: 200px;
+}
+
+
+
+.urbangreymenu {
+    margin-top: -10px;
+    width: 200px; /*width of menu*/
+}
+
+.urbangreymenu .headerbar {
+    background: #282828;
+    background: -moz-linear-gradient(top, #282828 0%, #000000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #282828), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(top, #282828 0%, #000000 100%);
+    background: -o-linear-gradient(top, #282828 0%, #000000 100%);
+    background: -ms-linear-gradient(top, #282828 0%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#282828', EndColorStr='#000000', GradientType=0);
+    font: 13px Verdana;
+  
+    margin-bottom: 0; /*bottom spacing between header and rest of content*/
+    margin-bottom: 0;
+
+    /*text-transform: uppercase;*/
+    padding: 5px 0 5px 10px; /*31px is left indentation of header text*/
+}
+
+.urbangreymenu .headerbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.urbangreymenu ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 0; /*bottom spacing between each UL and rest of content*/
+    padding: 0;
+}
+
+.urbangreymenu ul li { padding-bottom: 0px; /*bottom spacing between menu items*/ }
+
+.urbangreymenu ul li a {
+    background: #ebebeb;
+    color: black;
+    display: block;
+    font: normal 12px Arial;
+    line-height: 17px;
+    padding: 5px 0;
+    padding-left: 8px; /*link text is indented 8px*/
+    text-decoration: none;
+}
+
+.urbangreymenu ul li a:visited { color: #282828; }
+
+.urbangreymenu ul li a:hover {
+    background: #d1d1d1;
+    /*hover state CSS*/
+    color: #282828;
+}
+/*FIM CSS MENU*/
+
+/*CSS NOVO MENUS
+
+#menu li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+    border-bottom: 1px solid #FFFFFF;
+}	
+	
+#menu li a:link, #menu5 li a:visited {
+	color: #FFFFFF;
+	display: block;
+	background:  url(../imgs/estrutura/menu.gif/menu5.gif);
+	padding: 8px 0 0 10px;
+    border-bottom: 1px solid #FFFFFF;
+}
+	
+#menu li a:hover {
+	color: #FFF;
+	background:  url(../imgs/estrutura/menu.gif) 0 -32px;
+	padding: 8px 0 0 10px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}*/
+
+/*FIM CSS NOVO MENUS*/
+
+/*CSS SUBMENUS*/
+
+/*#sub_menu {
+    position:absolute;
+    background-image:url('../imgs/estrutura/fundo_div_smenu.png');
+    margin-top:210px;
+    margin-left:220px;
+    width: 1024px;
+    height: 300px;
+    font-family: Verdana;
+    
+}*/
+
+#table_sub_admin {
+    font-family: Calibri;
+    font-size: 16px;
+    height: 188px;
+    margin-left: 62px;
+    margin-top: 72px;
+    position: absolute;
+    width: 900px;
+}
+
+#table_sub_cadastros {
+    font-family: Calibri;
+    font-size: 14px;
+    height: 188px;
+    margin-left: 62px;
+    margin-top: 72px;
+    position: absolute;
+    width: 900px;
+}
+
+#table_sub_financeiro {
+    font-family: Calibri;
+    font-size: 14px;
+    height: 188px;
+    margin-left: 62px;
+    margin-top: 72px;
+    position: absolute;
+    width: 900px;
+}
+
+#table_sub_vendas {
+    font-family: Calibri;
+    font-size: 14px;
+    height: 188px;
+    margin-left: 62px;
+    margin-top: 72px;
+    position: absolute;
+    width: 900px;
+}
+
+#table_sub_operacional {
+    font-family: Calibri;
+    font-size: 14px;
+    height: 188px;
+    margin-left: 62px;
+    margin-top: 72px;
+    position: absolute;
+    width: 900px;
+}
+
+#table_sub_relatorios {
+    font-family: Calibri;
+    font-size: 14px;
+    height: 188px;
+    margin-left: 62px;
+    margin-top: 72px;
+    position: absolute;
+    width: 900px;
+}
+
+#table_sub_altera {
+    font-family: Calibri;
+    font-size: 14px;
+    height: 188px;
+    margin-left: 62px;
+    margin-top: 72px;
+    position: absolute;
+    width: 900px;
+}
+
+
+#hr_sub_menu {
+    background-color: #ffffff;
+    height: 2px;
+    margin-left: 0px;
+    margin-top: 55px;
+    position: absolute;
+    width: 1024px;
+}
+
+#titulo_sub_admin {
+    color: #ffffff;
+    font-family: Calibri;
+    font-size: larger;
+    font-size: 20px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: absolute;
+    width: 228px;
+}
+
+#titulo_sub_cadastros {
+    color: #ffffff;
+    font-size: 16px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: absolute;
+    width: 228px;    
+}
+
+#titulo_sub_financeiro {
+    color: #ffffff;
+    font-size: 16px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: absolute;
+    width: 228px;    
+}
+
+#titulo_sub_vendas {
+    color: #ffffff;
+    font-size: 16px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: absolute;
+    width: 228px;    
+}
+
+#titulo_sub_operacional {
+    color: #ffffff;
+    font-size: 16px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: absolute;
+    width: 228px;    
+}
+
+#titulo_sub_relatorios {
+    color: #ffffff;
+    font-size: 16px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: absolute;
+    width: 228px;    
+}
+
+#titulo_sub_altera {
+    color: #ffffff;
+    font-size: 16px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: absolute;
+    width: 228px;    
+}
+
+/*FIM CSS SUBMENUS*/

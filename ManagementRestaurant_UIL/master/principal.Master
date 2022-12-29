@@ -1,0 +1,169 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="principal.Master.cs" Inherits="ManagementRestaurant_UIL.master.principal" %>
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <title>..:: Sistema de Gestão de Restaurantes ::..</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../imgs/favicon.ico"  />
+        <link href="../css/config.css" rel="stylesheet" />        
+        <link href="../css_pirobox/style_1/style.css" rel="stylesheet" />       
+        <script src="../Scripts/funcoes.js"> </script>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+        <%--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>--%>
+        <script src="../../js/jquery.min.js"> </script>
+        <script src="../../js/ddaccordion.js"> </script>
+        <script type="text/javascript" src="../../js/jquery-ui-1.8.2.custom.min.js"></script>
+        <script type="text/javascript" src="../../js/pirobox_extended.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $().piroBox_ext({
+                    piro_speed: 700,
+                    bg_alpha: 0.5,
+                    piro_scroll: true // pirobox always positioned at the center of the page
+                });
+            });
+        </script>
+        <script type="text/javascript">
+
+            ddaccordion.init({
+                headerclass: "headerbar", //Shared CSS class name of headers group
+                contentclass: "submenu", //Shared CSS class name of contents group
+                revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+                mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+                collapseprev: true, //Collapse previous content (so only one open at any time)? true/false
+                defaultexpanded: [0], //index of content(s) open by default [index1, index2, etc] [] denotes no content
+                onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+                animatedefault: true, //Should contents open by default be animated into view?
+                persiststate: true, //persist state of opened contents within browser session?
+                toggleclass: ["", "selected"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+                togglehtml: ["", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+                animatespeed: "normal", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+                oninit: function(headers, expandedindices) { //custom code to run when headers have initalized
+                    //do nothing
+                },
+                onopenclose: function(header, index, state, isuseractivated) { //custom code to run whenever a header is opened or closed
+                    //do nothing
+                }
+            })
+
+        </script>
+
+        <style type="text/css">
+            #Logo { width: 304px; }
+
+            .auto-style1 { font-style: normal; }
+        </style>
+
+    </head>
+    <body>
+        <form id="form1" runat="server">
+    
+            <div id="saldacao">
+        
+        
+        
+                <table style="font-style: italic; width: 100%;">
+                    <tr>
+                        <td>
+                            <span class="auto-style1">Seja Bem Vindo(a)</span>
+                            <asp:Label ID="lblNome" runat="server" Font-Italic="False"></asp:Label>
+
+                        </td>
+                    </tr>
+
+                </table>
+        
+            </div>
+            <div id="feedback">
+                <table style="font-style: italic; width: 100%;">
+                    <tr>
+                        <td>
+                            <asp:ImageButton ID="btnFeed" runat="server" Height="38px" ImageUrl="~/imgs/base/feed.png" OnClick="btnFeed_Click" />
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+    
+            <div id="sair">
+                <asp:LinkButton ID="lbtSair" runat="server" style="color: #ffffff" OnClick="lbtSair_Click">Sair</asp:LinkButton>
+            </div>
+            <div id="topo">        
+                <a href="../home/home.aspx">
+                    <div id="logo">
+            
+                    </div>
+                </a>
+            </div>
+
+
+            <div id='menu'>
+                <div class="urbangreymenu">
+          
+                    <h2 class="headerbar"><span style="color: #ff6a00;">&nbsp;»</span>&nbsp;<asp:LinkButton ID="lblAdmin" runat="server">Administrativo</asp:LinkButton></h2>
+                    <ul class="submenu"> 
+                        <li><asp:HyperLink ID="hplCliente" runat="server" NavigateUrl="~/modulos/administrativo/cadastro_funcionario.aspx">&nbsp;&bull;&nbsp;Cadastro de Funcionários</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="hplNovoFornecedor" runat="server" NavigateUrl="~/modulos/administrativo/cadastro_fornecedor.aspx">&nbsp;&bull;&nbsp;Cadastro de Fornecedores</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="hplFornCadastrados" runat="server" NavigateUrl="~/modulos/administrativo/cadastro_produto.aspx">&nbsp;&bull;&nbsp;Cadastro de Produtos</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="hplNovoProduto" runat="server" NavigateUrl="~/modulos/administrativo/cadastro_prato.aspx">&nbsp;&bull;&nbsp;Cadastro de Pratos</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="hplProdCadastrados" runat="server" NavigateUrl="~/modulos/administrativo/centro_custo.aspx">&nbsp;&bull;&nbsp;Centro de Custos</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="hplCliCadastrados" runat="server" NavigateUrl="~/modulos/administrativo/ferias_funcionario.aspx">&nbsp;&bull;&nbsp;Lançamento de Férias</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="hplServCadastrados" runat="server" NavigateUrl="~/modulos/administrativo/cadastro_contrato.aspx">&nbsp;&bull;&nbsp;Cadastro de Contratos</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="hplNovoUsuario" runat="server" NavigateUrl="~/modulos/administrativo/cadastro_departamento.aspx">&nbsp;&bull;&nbsp;Cadastro de Departamentos</asp:HyperLink></li>
+                    
+                    </ul>
+
+                    <h2 class="headerbar"><span style="color: #ff6a00;">&nbsp;»</span>&nbsp;<asp:LinkButton ID="lblCadastro" runat="server">Cadastros</asp:LinkButton></h2>
+                    <ul class="submenu">
+                        <li class='has-sub '><asp:HyperLink ID="hplOs" runat="server" NavigateUrl="~/modulos/cadastro/cadastro_cliente.aspx">&nbsp;&bull;&nbsp;Cadastro de Clientes</asp:HyperLink></li>
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/modulos/cadastro/entrada_estoque.aspx">&nbsp;&bull;&nbsp;Entrada de Produtos</asp:HyperLink></li>
+                    </ul>
+                    <h2 class="headerbar"><span style="color: #ff6a00;">&nbsp;»</span>&nbsp;<asp:LinkButton ID="lblFinanceiro" runat="server">Financeiro</asp:LinkButton></h2>
+                    <ul class="submenu">
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/modulos/financeiro/lancar_notas.aspx">&nbsp;&bull;&nbsp; Lançar Notas</asp:HyperLink></li>
+                    </ul>
+                    <h2 class="headerbar"><span style="color: #ff6a00;">&nbsp;»</span>&nbsp;<asp:LinkButton ID="lblVendas" runat="server">Vendas</asp:LinkButton></h2>
+                    <ul class="submenu">
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/modulos/vendas/cadastro_pedido.aspx">&nbsp;&bull;&nbsp; Efetuar Pedidos</asp:HyperLink></li>
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/modulos/vendas/reserva_mesa.aspx">&nbsp;&bull;&nbsp; Reservar Mesas</asp:HyperLink></li>
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/modulos/vendas/lista_pedidos.aspx">&nbsp;&bull;&nbsp; Lista de Entregas</asp:HyperLink></li>
+                    </ul>
+                    <h2 class="headerbar"><span style="color: #ff6a00;">&nbsp;»</span>&nbsp;<asp:LinkButton ID="lblOperacional" runat="server">Operacional</asp:LinkButton></h2>
+                    <ul class="submenu">
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/modulos/operacional/cadastro_frota.aspx">&nbsp;&bull;&nbsp; Cadastro de Frota</asp:HyperLink></li>
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/modulos/operacional/controle_ponto.aspx">&nbsp;&bull;&nbsp; Controle de Ponto</asp:HyperLink></li>
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/modulos/operacional/controle_veiculo.aspx">&nbsp;&bull;&nbsp; Controle de Veículos</asp:HyperLink></li>
+                    </ul>
+                    <h2 class="headerbar"><span style="color: #ff6a00;">&nbsp;»</span>&nbsp;<asp:LinkButton ID="lblRelatorio" runat="server">Relatórios</asp:LinkButton></h2>
+                    <ul class="submenu">
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/modulos/relatorios/relatorio_gerencial.aspx">&nbsp;&bull;&nbsp; Relatórios Gerenciais</asp:HyperLink></li>
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink17" runat="server" NavigateUrl="~/modulos/relatorios/relatorio_comercial.aspx">&nbsp;&bull;&nbsp; Relatórios Comerciais</asp:HyperLink></li>
+                    </ul>
+                    <h2 class="headerbar"><span style="color: #ff6a00;">&nbsp;»</span>&nbsp;<asp:LinkButton ID="lblAltera" runat="server">Alteração de dados</asp:LinkButton></h2>
+                    <ul class="submenu">
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/modulos/alteracao/lista_clientes.aspx">&nbsp;&bull;&nbsp; Atualização de Clientes</asp:HyperLink></li>
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="~/modulos/alteracao/dados_fornecedor.aspx">&nbsp;&bull;&nbsp; Atualização de Fornecedores</asp:HyperLink></li>
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink14" runat="server" NavigateUrl="~/modulos/alteracao/alterar_frota.aspx">&nbsp;&bull;&nbsp; Atualização de Frota</asp:HyperLink></li>
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink15" runat="server" NavigateUrl="~/modulos/alteracao/lista_ativos.aspx">&nbsp;&bull;&nbsp; Atualização de Funcionarios</asp:HyperLink></li>
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/modulos/alteracao/dados_contrato.aspx">&nbsp;&bull;&nbsp; Atualização de Contratos</asp:HyperLink></li>
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink12" runat="server" NavigateUrl="~/modulos/alteracao/dados_centro_custo.aspx">&nbsp;&bull;&nbsp; Atualização de Centros de Custo</asp:HyperLink></li>
+                        <li class='has-sub '><asp:HyperLink ID="HyperLink16" runat="server" NavigateUrl="~/modulos/alteracao/dados_departamento.aspx">&nbsp;&bull;&nbsp; Atualização de Departamentos</asp:HyperLink></li>
+                    </ul>
+           
+                </div>
+            </div>
+        
+            <div>
+                <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" EnableScriptGlobalization="True"></ajaxToolkit:ToolkitScriptManager>
+            </div>
+        
+            <div id="conteudo">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>    
+        </form>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+﻿body {
+    background-color: #f7f7f7;
+    background-image: url("../imgs/base/fundo.png");
+    background-repeat: repeat-x;
+}
+
+.Botoes {
+    background-color: #ff6a00;
+    border: solid 1px;
+    border-bottom-color: #ff6a00;
+    color: #ffffff;
+    font-family: Arial, Verdana;
+    font-size: medium;
+}
+
+.titulo_menu { font-size: x-large; }
+
+a:link, a:visited {
+    color: #393939;
+    font-family: Arial, Verdana;
+    font-size: medium;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6a00;
+    font-family: Arial, Verdana;
+    font-size: medium;
+    text-decoration: none;
+}
+
+a:active {
+    color: #393939;
+    font-family: Arial, Verdana;
+    font-size: medium;
+    text-decoration: none;
+}
+
+#tudo {
+    height: 357px;
+    margin: 0 auto;
+    text-align: left;
+    width: 1089px;
+}
+
+#Logo {
+    background-image: url('../imgs/base/logo_sistema.png');
+    background-repeat: no-repeat;
+    height: 88px;
+    margin-left: 5px;
+    margin-top: 30px;
+    position: absolute;
+    width: 262px;
+}
+
+#menuAdmin {
+    background-image: url('../imgs/base/imgAdmin.png');
+    background-repeat: no-repeat;
+    height: 69px;
+    margin-left: 570px;
+    margin-top: 20px;
+    position: absolute;
+    width: 79px;
+}
+
+#menuCad {
+    background-image: url('../imgs/base/imgCad.png');
+    background-repeat: no-repeat;
+    height: 69px;
+    left: 10px;
+    margin-left: 658px;
+    margin-top: 20px;
+    position: absolute;
+    top: 12px;
+    width: 79px;
+}
+
+#menuFinan {
+    background-image: url('../imgs/base/imgFinan.png');
+    background-repeat: no-repeat;
+    height: 69px;
+    margin-left: 746px;
+    margin-top: 20px;
+    position: absolute;
+    width: 79px;
+}
+
+#menuVend {
+    background-image: url('../imgs/base/imgVenda.png');
+    background-repeat: no-repeat;
+    height: 69px;
+    margin-left: 834px;
+    margin-top: 20px;
+    position: absolute;
+    width: 79px;
+}
+
+#menuopera {
+    background-image: url('../imgs/base/imgope.png');
+    background-repeat: no-repeat;
+    height: 69px;
+    margin-left: 922px;
+    margin-top: 20px;
+    position: absolute;
+    width: 79px;
+}
+
+#menuRel {
+    background-image: url('../imgs/base/imgRel.png');
+    background-repeat: no-repeat;
+    height: 69px;
+    margin-left: 1010px;
+    margin-top: 20px;
+    position: absolute;
+    width: 79px;
+}
+
+#conteudo {
+    font-family: Arial, Verdana;
+    font-size: x-small;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 150px;
+    position: absolute;
+    width: 1089px;
+}

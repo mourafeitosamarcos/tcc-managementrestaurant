@@ -1,0 +1,481 @@
+﻿body {
+
+
+}
+
+.Livre {
+    background-color:#E0FFFF;
+}
+
+.Ocupado {
+    background-color:#FF0000;
+
+}
+
+
+#titulo {
+    text-align:center;
+    font-family:Verdana;
+    font-size:x-large;
+    margin: 0 auto;
+    text-align: left;
+    width: 207px;
+}
+#tudo {
+     
+    margin: 0 auto;
+    text-align: left;
+    width: 1024px;
+    height:auto;
+}
+#mesa1
+{
+     
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: 60px;
+
+}
+#mesa2
+{
+     
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 140px;
+    width: 100px;
+    height: 60px;
+}
+#mesa3
+{
+     
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 260px;
+    width: 100px;
+    height: 60px;
+}
+#mesa4
+{
+     
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 380px;
+    width: 100px;
+    height: 60px;
+}
+#mesa5
+{
+     
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 500px;
+    width: 100px;
+    height: 60px;
+}
+#mesa6
+{
+     
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 620px;
+    width: 100px;
+    height: 60px;
+}
+#mesa7
+{
+     
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 740px;
+    width: 100px;
+    height: 60px;
+}
+#mesa8
+{
+     
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 860px;
+    width: 100px;
+    height: 60px;
+}
+#mesa9
+{
+     
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 100px;
+    height: 60px;
+}
+#mesa10
+{
+     
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 140px;
+    width: 100px;
+    height: 60px;
+}
+#mesa11
+{
+     
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 260px;
+    width: 100px;
+    height: 60px;
+}
+#mesa12
+{
+     
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 380px;
+    width: 100px;
+    height: 60px;
+}
+#mesa13
+{
+     
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 100px;
+    height: 60px;
+}
+#mesa14
+{
+     
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 620px;
+    width: 100px;
+    height: 60px;
+}
+#mesa15
+{
+     
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 740px;
+    width: 100px;
+    height: 60px;
+}
+#mesa16
+{
+     
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 860px;
+    width: 100px;
+    height: 60px;
+}
+#mesa17
+{
+     
+    position:absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    width: 100px;
+    height: 60px;
+}
+#mesa18
+{
+     
+    position:absolute;
+    margin-top: 180px;
+    margin-left: 140px;
+    width: 100px;
+    height: 60px;
+}
+#mesa19
+{
+     
+    position:absolute;
+    margin-top: 180px;
+    margin-left: 260px;
+    width: 100px;
+    height: 60px;
+}
+#mesa20
+{
+     
+    position:absolute;
+    margin-top: 180px;
+    margin-left: 380px;
+    width: 100px;
+    height: 60px;
+}
+#mesa21
+{
+     
+    position:absolute;
+    margin-top: 180px;
+    margin-left: 500px;
+    width: 100px;
+    height: 60px;
+}
+#mesa22
+{
+     
+    position:absolute;
+    margin-top: 180px;
+    margin-left: 620px;
+    width: 100px;
+    height: 60px;
+}
+#mesa23
+{
+     
+    position:absolute;
+    margin-top: 180px;
+    margin-left: 740px;
+    width: 100px;
+    height: 60px;
+}
+#mesa24
+{
+     
+    position:absolute;
+    margin-top: 180px;
+    margin-left: 860px;
+    width: 100px;
+    height: 60px;
+}
+#mesa25
+{
+     
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 20px;
+    width: 100px;
+    height: 60px;
+}
+#mesa26
+{
+     
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 140px;
+    width: 100px;
+    height: 60px;
+}
+#mesa27
+{
+     
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 260px;
+    width: 100px;
+    height: 60px;
+}
+#mesa28
+{
+     
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 380px;
+    width: 100px;
+    height: 60px;
+}
+#mesa29
+{
+     
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 500px;
+    width: 100px;
+    height: 60px;
+}
+#mesa30
+{
+     
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 620px;
+    width: 100px;
+    height: 60px;
+}
+#mesa31
+{
+     
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 740px;
+    width: 100px;
+    height: 60px;
+}
+#mesa32
+{
+     
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 860px;
+    width: 100px;
+    height: 60px;
+}
+#mesa33
+{
+     
+    position:absolute;
+    margin-top: 340px;
+    margin-left: 20px;
+    width: 100px;
+    height: 60px;
+}
+#mesa34
+{
+     
+    position:absolute;
+    margin-top: 340px;
+    margin-left: 140px;
+    width: 100px;
+    height: 60px;
+}
+#mesa35
+{
+     
+    position:absolute;
+    margin-top: 340px;
+    margin-left: 260px;
+    width: 100px;
+    height: 60px;
+}
+#mesa36
+{
+     
+    position:absolute;
+    margin-top: 340px;
+    margin-left: 380px;
+    width: 100px;
+    height: 60px;
+}
+#mesa37
+{
+     
+    position:absolute;
+    margin-top: 340px;
+    margin-left: 500px;
+    width: 100px;
+    height: 60px;
+}
+#mesa38
+{
+     
+    position:absolute;
+    margin-top: 340px;
+    margin-left: 620px;
+    width: 100px;
+    height: 60px;
+}
+#mesa39
+{
+     
+    position:absolute;
+    margin-top: 340px;
+    margin-left: 740px;
+    width: 100px;
+    height: 60px;
+}
+#mesa40
+{
+     
+    position:absolute;
+    margin-top: 340px;
+    margin-left: 860px;
+    width: 100px;
+    height: 60px;
+}
+#mesa41
+{
+     
+    position:absolute;
+    margin-top: 420px;
+    margin-left: 20px;
+    width: 100px;
+    height: 60px;
+}
+#mesa42
+{
+     
+    position:absolute;
+    margin-top: 420px;
+    margin-left: 140px;
+    width: 100px;
+    height: 60px;
+}
+#mesa43
+{
+     
+    position:absolute;
+    margin-top: 420px;
+    margin-left: 260px;
+    width: 100px;
+    height: 60px;
+}
+#mesa44
+{
+     
+    position:absolute;
+    margin-top: 420px;
+    margin-left: 380px;
+    width: 100px;
+    height: 60px;
+}
+#mesa45
+{
+     
+    position:absolute;
+    margin-top: 420px;
+    margin-left: 500px;
+    width: 100px;
+    height: 60px;
+}
+#mesa46
+{
+     
+    position:absolute;
+    margin-top: 420px;
+    margin-left: 620px;
+    width: 100px;
+    height: 60px;
+}
+#mesa47
+{
+     
+    position:absolute;
+    margin-top: 420px;
+    margin-left: 740px;
+    width: 100px;
+    height: 60px;
+}
+#mesa48
+{
+     
+    position:absolute;
+    margin-top: 420px;
+    margin-left: 860px;
+    width: 100px;
+    height: 60px;
+}
+#mesa49
+{
+     
+    position:absolute;
+    margin-top: 500px;
+    margin-left: 20px;
+    width: 100px;
+    height: 60px;
+}
+#mesa50
+{
+     
+    position:absolute;
+    margin-top: 500px;
+    margin-left: 140px;
+    width: 100px;
+    height: 60px;
+}

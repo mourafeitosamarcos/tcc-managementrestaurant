@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="quantidadeVeiculoCad" targetNamespace="http://tempuri.org/quantidadeVeiculoCad.xsd" xmlns:mstns="http://tempuri.org/quantidadeVeiculoCad.xsd" xmlns="http://tempuri.org/quantidadeVeiculoCad.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="quantidadeVeiculoCad" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="quantidadeVeiculoCad" msprop:Generator_UserDSName="quantidadeVeiculoCad">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="quantidadeVeiculoCad" msprop:Generator_TableClassName="quantidadeVeiculoCadDataTable" msprop:Generator_TableVarName="tablequantidadeVeiculoCad" msprop:Generator_TablePropName="_quantidadeVeiculoCad" msprop:Generator_RowDeletingName="quantidadeVeiculoCadRowDeleting" msprop:Generator_RowChangingName="quantidadeVeiculoCadRowChanging" msprop:Generator_RowEvHandlerName="quantidadeVeiculoCadRowChangeEventHandler" msprop:Generator_RowDeletedName="quantidadeVeiculoCadRowDeleted" msprop:Generator_UserTableName="quantidadeVeiculoCad" msprop:Generator_RowChangedName="quantidadeVeiculoCadRowChanged" msprop:Generator_RowEvArgName="quantidadeVeiculoCadRowChangeEvent" msprop:Generator_RowClassName="quantidadeVeiculoCadRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MODELO" msprop:Generator_ColumnVarNameInTable="columnMODELO" msprop:Generator_ColumnPropNameInRow="MODELO" msprop:Generator_ColumnPropNameInTable="MODELOColumn" msprop:Generator_UserColumnName="MODELO" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANTIDADE" msprop:Generator_ColumnVarNameInTable="columnQUANTIDADE" msprop:Generator_ColumnPropNameInRow="QUANTIDADE" msprop:Generator_ColumnPropNameInTable="QUANTIDADEColumn" msprop:Generator_UserColumnName="QUANTIDADE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

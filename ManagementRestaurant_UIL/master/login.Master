@@ -1,0 +1,152 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="login.Master.cs" Inherits="ManagementRestaurant_UIL.master.login" %>
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <title>..:: Sistema de Gestão de Restaurantes ::..</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../imgs/favicon.ico"  />
+        <%-- <link href="../css/config.css" rel="stylesheet" />--%>
+        <style>
+            body { background-color: #f2f2f2; }
+        
+
+            a:link {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+
+            a:visited {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+
+            a:active {
+                color: #FFFFFF;
+                text-decoration: underline;
+            }
+
+            #NovoLogin {
+                background-image: url("../imgs/estrutura/fundo_login.png");
+                background-repeat: repeat-x;
+                border-top: 3px solid #ff6a00;
+                color: #ffffff;
+                font-family: Arial;
+                height: 301px;
+                margin: 0 auto;
+                margin-top: 180px;
+                width: inherit;
+            }
+
+            .BotoesNovoLogin {
+                background: #ebebeb;
+                background: -moz-linear-gradient(top, #ebebeb 0%, #ffffff 100%);
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ebebeb), color-stop(100%, #ffffff));
+                background: -webkit-linear-gradient(top, #ebebeb 0%, #ffffff 100%);
+                background: -o-linear-gradient(top, #ebebeb 0%, #ffffff 100%);
+                background: -ms-linear-gradient(top, #ebebeb 0%, #ffffff 100%);
+                background: linear-gradient(to bottom, #ebebeb 0%, #ffffff 100%);
+                border: 1px solid;
+                color: #282828;
+                filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#ebebeb', EndColorStr='#ffffff', GradientType=0);
+                font-family: Arial;
+            }
+
+            .BotaoCadastrar {
+                background: #FF4500;
+                background: -moz-linear-gradient(top, #FF8C00 0%, #FF4500 100%);
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF8C00), color-stop(100%, #FF4500));
+                background: -webkit-linear-gradient(top, #FF8C00 0%, #FF4500 100%);
+                background: -o-linear-gradient(top, #FF8C00 0%, #FF4500 100%);
+                background: -ms-linear-gradient(top, #FF8C00 0%, #FF4500 100%);
+                background: linear-gradient(to bottom, #FF8C00 0%, #FF4500 100%);
+                border: 1px solid;
+                color: #FFFFFF;
+                filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#FF8C00', EndColorStr='#FF4500', GradientType=0);
+                font-family: Arial;
+            }
+
+            #logo_login {
+                height: 129px;
+                margin-left: 160px;
+                margin-top: 10px;
+                position: absolute;
+                width: 143px;
+            }
+
+            #obj_login {
+                font-family: Calibri;
+                font-size: small;
+                height: auto;
+                margin-left: 350px;
+                margin-top: 40px;
+                position: absolute;
+                text-align: left;
+                width: 469px;
+            }
+
+            .style25 {
+                text-align: center;
+                width: 400px;
+            }
+
+            .style26 {
+                height: 47px;
+                text-align: center;
+                width: 400px;
+            }
+
+            .style28 {
+                color: #FFFFFF;
+                text-align: center;
+                width: 400px;
+            }
+
+            .style30 {
+                height: 31px;
+                text-align: center;
+                width: 400px;
+            }
+
+            .style31 {
+                height: 29px;
+                text-align: center;
+                width: 400px;
+            }
+
+            </style>
+        <script src="../../js/mascara.js" type="text/javascript"> </script>
+        <script src="../js/jquery.min.js"> </script>
+        <script>
+            $(".run").ready(function() {
+                $("#NovoLogin").fadeTo(3000, 2);
+                return false;
+            });
+        </script>
+    </head>
+    <body bgcolor="#f1efef">
+        <div id="NovoLogin" <%--style="display: none;"--%>>
+            <form id="form1" runat="server">
+                <div id="logo_login">
+                    <asp:ImageButton ID="imgLogo" runat="server" Height="142px" ImageUrl="~/imgs/estrutura/logo_login.png" OnClick="imgLogo_Click" />
+                </div>
+                <div id="obj_login">
+                    <table style="width: 82%;">
+                        <tr style="text-align: center">
+                            <td rowspan="2">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </div>           
+            </form>
+        </div>
+    </body>
+</html>

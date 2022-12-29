@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="quantidadePedTipoCliente" targetNamespace="http://tempuri.org/quantidadePedTipoCliente.xsd" xmlns:mstns="http://tempuri.org/quantidadePedTipoCliente.xsd" xmlns="http://tempuri.org/quantidadePedTipoCliente.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="quantidadePedTipoCliente" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="quantidadePedTipoCliente" msprop:Generator_UserDSName="quantidadePedTipoCliente">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="quantidadePedTipoCliente" msprop:Generator_TableClassName="quantidadePedTipoClienteDataTable" msprop:Generator_TableVarName="tablequantidadePedTipoCliente" msprop:Generator_TablePropName="_quantidadePedTipoCliente" msprop:Generator_RowDeletingName="quantidadePedTipoClienteRowDeleting" msprop:Generator_RowChangingName="quantidadePedTipoClienteRowChanging" msprop:Generator_RowEvHandlerName="quantidadePedTipoClienteRowChangeEventHandler" msprop:Generator_RowDeletedName="quantidadePedTipoClienteRowDeleted" msprop:Generator_UserTableName="quantidadePedTipoCliente" msprop:Generator_RowChangedName="quantidadePedTipoClienteRowChanged" msprop:Generator_RowEvArgName="quantidadePedTipoClienteRowChangeEvent" msprop:Generator_RowClassName="quantidadePedTipoClienteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TIPO" msprop:Generator_ColumnVarNameInTable="columnTIPO" msprop:Generator_ColumnPropNameInRow="TIPO" msprop:Generator_ColumnPropNameInTable="TIPOColumn" msprop:Generator_UserColumnName="TIPO" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANTIDADEPED" msprop:Generator_ColumnVarNameInTable="columnQUANTIDADEPED" msprop:Generator_ColumnPropNameInRow="QUANTIDADEPED" msprop:Generator_ColumnPropNameInTable="QUANTIDADEPEDColumn" msprop:Generator_UserColumnName="QUANTIDADEPED" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
